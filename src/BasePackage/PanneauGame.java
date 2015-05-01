@@ -52,10 +52,10 @@ public class PanneauGame extends JPanel implements MouseListener {
 	public PanneauGame(Color couleur){
 
 		try {
-			blueBrick = ImageIO.read(new File("blueBrick.png"));
-			redBrick = ImageIO.read(new File("redBrick.png"));
-			blackBrick = ImageIO.read(new File("blackBrick.png"));
-			goldBrick = ImageIO.read(new File("goldBrick.png"));
+			blueBrick = ImageIO.read(new File("Pictures/blueBrick.png"));
+			redBrick = ImageIO.read(new File("Pictures/redBrick.png"));
+			blackBrick = ImageIO.read(new File("Pictures/blackBrick.png"));
+			goldBrick = ImageIO.read(new File("Pictures/goldBrick.png"));
 
 		} catch (IOException e) {
 			e.printStackTrace();

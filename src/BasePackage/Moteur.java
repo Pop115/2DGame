@@ -28,10 +28,10 @@ public class Moteur {
 
 	try {
 
-	    sorcier = ImageIO.read(new File("sorcier.png"));
-	    cage = ImageIO.read(new File("CAGE.png"));
-	    poulpe = ImageIO.read(new File("poulpe.png"));
-	    nyan = ImageIO.read(new File("nyan.png"));
+	    sorcier = ImageIO.read(new File("Pictures/sorcier.png"));
+	    cage = ImageIO.read(new File("Pictures/CAGE.png"));
+	    poulpe = ImageIO.read(new File("Pictures/poulpe.png"));
+	    nyan = ImageIO.read(new File("Pictures/nyan.png"));
 
 
 	} catch (IOException e) {
